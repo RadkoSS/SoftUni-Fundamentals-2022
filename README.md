@@ -1,2 +1,2 @@
 # SoftUni-Fundamentals-2022
-All of my C# SoftUni Fundamentals exercises (2022)
+All my C# SoftUni Fundamentals exercises from January to April 2022.
