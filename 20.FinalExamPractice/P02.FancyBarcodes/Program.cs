@@ -4,9 +4,9 @@ namespace P02.FancyBarcodes
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
