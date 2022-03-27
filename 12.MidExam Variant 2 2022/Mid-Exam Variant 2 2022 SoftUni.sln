@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01. Experience Gaining", "P01. Experience Gaining\P01. Experience Gaining.csproj", "{DD0818FD-E406-411E-BBAE-1C41B5509A85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02. Phone Shop", "P02. Phone Shop\P02. Phone Shop.csproj", "{C0E52279-55C1-4074-AD6F-BAB90E3EF38A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD0818FD-E406-411E-BBAE-1C41B5509A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD0818FD-E406-411E-BBAE-1C41B5509A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD0818FD-E406-411E-BBAE-1C41B5509A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD0818FD-E406-411E-BBAE-1C41B5509A85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0E52279-55C1-4074-AD6F-BAB90E3EF38A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0E52279-55C1-4074-AD6F-BAB90E3EF38A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0E52279-55C1-4074-AD6F-BAB90E3EF38A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0E52279-55C1-4074-AD6F-BAB90E3EF38A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45D5A7F9-779D-489A-9199-0B20A721BDFD}
+	EndGlobalSection
+EndGlobal
