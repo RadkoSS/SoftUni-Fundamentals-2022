@@ -5,6 +5,10 @@ VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01.Secret Chat", "P01.Secret Chat\P01.Secret Chat.csproj", "{C4828763-5D94-4102-AF78-7B5555D07205}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.MirrorWords", "P02.MirrorWords\P02.MirrorWords.csproj", "{0A092C8B-FC36-49CD-ACD6-52509864C711}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03.Need for Speed III", "P03.Need for Speed III\P03.Need for Speed III.csproj", "{B454BCB5-038F-4F61-AEB1-6678EB9B698F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{C4828763-5D94-4102-AF78-7B5555D07205}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4828763-5D94-4102-AF78-7B5555D07205}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4828763-5D94-4102-AF78-7B5555D07205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A092C8B-FC36-49CD-ACD6-52509864C711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A092C8B-FC36-49CD-ACD6-52509864C711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A092C8B-FC36-49CD-ACD6-52509864C711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A092C8B-FC36-49CD-ACD6-52509864C711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B454BCB5-038F-4F61-AEB1-6678EB9B698F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B454BCB5-038F-4F61-AEB1-6678EB9B698F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B454BCB5-038F-4F61-AEB1-6678EB9B698F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B454BCB5-038F-4F61-AEB1-6678EB9B698F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
