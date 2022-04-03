@@ -20,7 +20,7 @@ namespace P03.HeroRecruitment
         {
             if (SpellNames.Contains(spellName))
             {
-                Console.WriteLine($"{Name} has already learnt {spellName}");
+                Console.WriteLine($"{Name} has already learnt {spellName}.");
             }
             else
             {
