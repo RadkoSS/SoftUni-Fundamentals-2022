@@ -66,29 +66,28 @@ namespace P03.HeroRecruitment
             while ((line = Console.ReadLine()) != "End")
             {
                 string[] heroInfo = line.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+
                 string heroName = heroInfo[1];
+                Hero currentHero = heroesList.FirstOrDefault(hero => hero.Name == heroName);
 
                 if (heroInfo[0] == "Enroll")
                 {
-                    if (!heroesList.Any(hero => hero.Name == heroName))
+                    if (currentHero != null)
                     {
-                        heroesList.Add(new Hero(heroName));
+                        Console.WriteLine($"{heroName} is already enrolled.");
                     }
                     else
                     {
-                        Console.WriteLine($"{heroName} is already enrolled.");
+                        heroesList.Add(new Hero(heroName));
                     }
                 }
 
                 else if (heroInfo[0] == "Learn")
                 {
                     string spellName = heroInfo[2];
-
-                    Hero hero = heroesList.FirstOrDefault(hero => hero.Name == heroName);
-
-                    if (hero != null)
+                    if (currentHero != null)
                     {
-                        hero.AddSpell(spellName);
+                        currentHero.AddSpell(spellName);
                     }
                     else
                     {
@@ -99,12 +98,9 @@ namespace P03.HeroRecruitment
                 else if (heroInfo[0] == "Unlearn")
                 {
                     string spellName = heroInfo[2];
-
-                    Hero hero = heroesList.FirstOrDefault(hero => hero.Name == heroName);
-
-                    if (hero != null)
+                    if (currentHero != null)
                     {
-                        hero.RemoveSpell(heroName, spellName);
+                        currentHero.RemoveSpell(heroName, spellName);
                     }
                     else
                     {
@@ -112,7 +108,6 @@ namespace P03.HeroRecruitment
                     }
                 }
             }
-
             PrintResult(heroesList);
         }
 
